@@ -18,3 +18,7 @@ How to set up Ubuntu 18.04 systems in the lab.
 13. Install codecs: sudo apt install -y libopus-dev libmp3lame-dev libfdk-aac-dev libvpx-dev libx264-dev yasm libass-dev libtheora-dev libvorbis-dev mercurial cmake
 14. Install Github Desktop: https://github.com/gengjiawen/desktop/releases
 15. Bluetooth support: sudo apt-get install bluez bluez-cups bluez-obexd gnome-bluetooth indicator-bluetooth libbluetooth3:amd64 libgnome-bluetooth13:amd64 pulseaudio-module-bluetooth 
+16. Install NVidia drivers: sudo add-apt-repository ppa:graphics-drivers/ppa && sudo apt update && sudo ubuntu-drivers autoinstall
+17. Install CUDA: https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1710&target_type=deblocal
+
+
